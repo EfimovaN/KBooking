@@ -87,3 +87,53 @@ console.log(adverts);
     //   'x': случайное число, координата x метки на карте. Значение ограничено размерами блока, в котором перетаскивается метка.
     //   'y': случайное число, координата y метки на карте от 130 до 630.
     // }
+
+
+
+
+ 
+
+// const numberWizards = 4;
+// const nameWizard = ['Иван', 'Даниил', 'Хуан Себастьян', 'Мартин', 'Кристоф', 'Виктор', 'Дамболдор', 'Граф', 'Вашингтон'];
+// const surnameWizard = ['Анисичкин', 'Верон', 'Коротов', 'Вальц', 'Онопко', 'Топольницкий', 'Нионго', 'Ирвинг'];
+// const coatColorWizard = ['rgb(101, 137, 164)', 'rgb(241, 43, 107)', 'rgb(146, 100, 161)', 'rgb(56, 159, 117)', 'pink', 'rgb(215, 210, 55)', 'rgb(0, 0, 0)'];
+// const eyesColorWizard = ['black', 'red', 'blue', 'yellow', 'green'];
+// const userDialog = document.querySelector('.setup');
+// userDialog.classList.remove('hidden');
+
+// const similarListElement = document.querySelector('.setup-similar-list');
+// const similarWizardTemplate = document.querySelector('#similar-wizard-template')
+//     .content
+//     .querySelector('.setup-similar-item');
+
+//     const wizards = [];
+
+// for (let i = 0; i < numberWizards; i++) {
+//     const firstName = nameWizard[Math.floor(Math.random() * nameWizard.length)];
+//     const secondName = surnameWizard[Math.floor(Math.random() * surnameWizard.length)];
+//     wizards[i] = {
+//         name: firstName + ' ' + secondName,
+//         coatColor: coatColorWizard[Math.floor(Math.random() * coatColorWizard.length)],
+//         eyesColor: eyesColorWizard[Math.floor(Math.random() * eyesColorWizard.length)]
+//     };
+// };   
+
+// const renderWizard = function (wizard) {
+//     const wizardElement = similarWizardTemplate.cloneNode(true);
+//     wizardElement.querySelector('.setup-similar-label').textContent = wizard.name;
+//     wizardElement.querySelector('.wizard-coat').style.fill = wizard.coatColor;
+//     wizardElement.querySelector('.wizard-eyes').style.fill = wizard.eyesColor;
+    
+//     return wizardElement;
+// }
+
+// const fragment = document.createDocumentFragment();
+
+// for (let i = 0; i < wizards.length; i++) {
+//   fragment.appendChild(renderWizard(wizards[i]));
+// }
+
+// similarListElement.appendChild(fragment);
+
+// document.querySelector('.setup-similar').classList.remove('hidden');
+
